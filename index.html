@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jitu HTML &mdash; html input elements</title>
+</head>
+<body>
+    <form action="">
+        <h3>HTML Input elements</h3>
+        <p>Text input</p>
+        <label for="full_name">
+            Enter full Name
+            <input type="text" placeholder="full name eg Dennis Otwoma" id="full_name">
+        </label>
+
+        <p>Number input</p>
+        <label for="age">
+            Enter your age
+            <input type="number" id="age" min="0" max="120">
+        </label>
+
+        <p>Select</p>
+        <label for="course">
+            Select your course
+            <select id="course">
+                <option value="IT">Information Technology</option>
+                <option value="CS">Computer Science</option>
+                <option value="SE">Software engineering</option>
+                <option value="MCS">Mathematics and Computer Science</option>
+                <option value="CSE">Computer Systems Engineering</option>
+            </select>
+        </label>
+
+        <p>Email input</p>
+        <label for="email">
+            Enter your email address
+            <input type="email" id="email" placeholder="example@gmail.com">
+        </label>
+
+        <p>Time input</p>
+        <label for="time">
+            Enter time of addmission
+            <input type="time" id="time">
+        </label>
+
+        <p>Date input</p>
+        <label for="date">
+            Enter the date you were addmitted
+            <input type="date" id="date">
+        </label>
+
+        <p>File input</p>
+        <label for="profile-pic">
+            Upload a passport size profile photo
+            <input type="file" id="profile-pic">
+        </label>
+
+        <p>Color input</p>
+        <label for="col-scheme">
+            Select your prefered color scheme
+            <input type="color" id="col-scheme">
+        </label>
+
+        <p>Radio inputs</p>
+        <div>
+            <p>Select your gender</p>
+            <label for="male">
+                Male
+                <input type="radio" name="gender" id="male">
+            </label>
+            <label for="female">
+                Female
+                <input type="radio" name="gender" id="female">
+            </label>
+            <label for="rns">
+                Rather Not Say
+                <input type="radio" name="gender" id="rns">
+            </label>
+        </div>
+
+        <p>Checkbox</p>
+        <div>
+            <p>Which languages are you interested in</p>
+
+            <label for="html">
+                HTML
+                <input type="checkbox" name="lang" id="html">
+            </label>
+            <label for="css">
+                CSS
+                <input type="checkbox" name="lang" id="css">
+            </label>
+            <label for="javascript">
+                javascript
+                <input type="checkbox" name="lang" id="javascript">
+            </label>
+            <label for="python">
+                python
+                <input type="checkbox" name="lang" id="python">
+            </label>
+            <label for="c++">
+                c++
+                <input type="checkbox" name="lang" id="c++">
+            </label>
+            <label for="C">
+                C
+                <input type="checkbox" name="lang" id="C">
+            </label>
+            <label for="C#">
+                C#
+                <input type="checkbox" name="lang" id="C#">
+            </label>
+            <label for="java">
+                java
+                <input type="checkbox" name="lang" id="java">
+            </label>
+        </div>
+
+        <p>range input</p>
+        <label for="skill-range">
+            Rate your coding skills on a scal of 1 - 10
+            <input type="range" id="skill-range" min="1" max="10">
+        </label>
+
+        <p>Password</p>
+        <label for="password">
+            Create a password
+            <input type="password" id="password">
+        </label>
+        <br> <br>
+        <label for="confirm-pass">
+            Confirm password
+            <input type="password" id="confirm-pass">
+        </label>
+
+        <p>submit</p>
+        <input type="submit" value="submit">
+
+        <p>reset input</p>
+        <input type="reset" value="clear my responses">
+    </form>
+</body>
+</html>
